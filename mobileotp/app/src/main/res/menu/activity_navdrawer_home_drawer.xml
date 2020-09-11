@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_addstock"
+            android:icon="@drawable/plus_icon"
+            android:title="Add Stock" />
+        <item
+            android:id="@+id/nav_display"
+            android:icon="@drawable/stock_icon"
+            android:title="Display" />
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/rupee"
+            android:title="Purchase" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+
+
+
+
+</menu>

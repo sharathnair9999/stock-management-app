@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomePage">
+
+
+    <LinearLayout
+
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Welcome"
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+
+            android:text=""
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <Button
+                android:id="@+id/btnOwner"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="OWNER"
+
+                android:background="@drawable/homepagebutton"
+
+                android:textSize="17sp"
+
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnCustomer"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="CUSTOMER"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:background="@drawable/homepagebutton"
+                android:layout_marginStart="15dp"
+
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
